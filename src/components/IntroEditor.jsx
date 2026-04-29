@@ -1,5 +1,5 @@
 import './IntroEditor.css'
-import characterImg from '../images/character.png'
+import characterImg from '../images/character.PNG'
 
 import { useRef, useState } from 'react';
 
