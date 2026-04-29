@@ -9,7 +9,7 @@ function IntroEditor() {
 
     const focusInput = () => {
         inputRef.current.focus();
-    };
+    }
 
     return (
         <div className='container'>
