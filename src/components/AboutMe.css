@@ -1,0 +1,41 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center; 
+    margin-bottom: 0px ;    
+}
+
+.title-container, .inner-container {
+    box-sizing: border-box; 
+    width: 600px; 
+    border: 2px solid #333;
+    margin: 0;
+}
+
+.title-container {
+    background-color: rgb(247, 255, 160);
+    width: 400px;           /* 너비를 inner와 맞추면 더 예뻐요 */
+    margin: 0;              /* 아래 박스와 붙이기 위해 마진 제거 */
+    padding: 15px 20px;
+    text-align: center;
+    border: 2px solid #333; /* 테두리를 넣으면 더 구분감이 살아요 */
+    border-bottom: none;    /* 아래 박스와 합쳐지게 밑 테두리만 제거 */
+    border-radius: 15px 15px 0 0; /* 윗부분만 둥글게 */
+}
+
+
+.inner-container {
+    background-color: azure;
+    width: 400px;           /* 제목 박스와 동일한 너비 */
+    padding: 30px;
+    border: 2px solid #333;
+    border-radius: 0 0 15px 15px; /* 아랫부분만 둥글게 */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* 살짝 띄워진 느낌 */
+    margin-bottom: 50px;
+}
+
+.inner-container p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}

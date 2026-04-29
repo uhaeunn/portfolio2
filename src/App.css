@@ -1,0 +1,72 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro KR", "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: -0.022em;
+  line-height: 1.5;
+  background-image: url(./images/background_4.jpg);
+  background-repeat: no-repeat;  /* 사진이 반복되지 않게 함 */
+  background-size: cover;        /* 화면을 꽉 채우도록 사진 크기를 조절함 */
+  background-attachment: fixed;
+}
+
+.navbar {
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-image: url('./images/header_2.jpg');
+  background-size: cover;
+  background-position: center;
+  position: sticky;
+}
+
+.nav-links {
+  display: flex !important;
+  gap: 20px !important;
+  align-items: center;
+}
+
+
+.logo {
+  font-size: 30px;
+  color: rgb(247, 255, 160);
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #333,
+    1px -1px 0 #333,
+    -1px 1px 0 #333,
+    1px 1px 0 #333;
+}
+
+.BigAboutMe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 200px !important;
+  margin-top : 180px;
+  width: 100% ;
+}
+
+.AboutMe {
+  border : 1px solid black;
+  background-color: #cdfffa;
+  font-size: 15px;
+}
+
+.Projects {
+  border : 1px solid rgb(0, 0, 0);
+  background-color: #ffdef2;
+  font-size: 15px;
+}
+

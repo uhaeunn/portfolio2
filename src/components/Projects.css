@@ -1,0 +1,70 @@
+projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.projects-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-item .title-container {
+    width: 600px;
+    background-color: rgb(247, 255, 160);
+    padding: 15px 20px;
+    border: 2px solid #333;
+    border-bottom: none;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.project-item .inner-container {
+    width: 600px;
+    background-color: azure;
+    padding: 30px;
+    border: 2px solid #333;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.description-box {
+    gap : 20px;
+}
+
+.portfolio-img {
+    width: 400px;
+    border: 1px solid #333;
+}
+
+.polyBridge {
+    width: 400px;
+    border: 1px solid #333;
+}
