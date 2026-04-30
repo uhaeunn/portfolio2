@@ -1,11 +1,13 @@
 import './Projects.css'
 import portfolio1Img from '../images/portfolio1.jpg'
+import blog1Img from '../images/blog1.jpg'
+import blog2Img from '../images/blog2.jpg'
 import PolyBridge from '../images/polybridge_video.mp4'
 
 export default function Projects() {
     return (
         <div className="projects-container">
-            <h2>My Projects</h2>
+            <h2 className='title'>~ My Projects ~</h2>
             <div className="projects-wrapper">
                 <div className='project-item'>
                     <div className='title-container'>Porfolio Project 1</div>
@@ -25,6 +27,23 @@ export default function Projects() {
                         >
                             Visit Website !
                         </a>
+
+                        <div className='description-box'>
+                            <p>개발과정 및 학습에 관한 블로그는 아래 링크에서 확인하실 수 있습니다!</p>
+                            <div className='url-container'>
+                                <div className='blog1'>
+                                    <img src = {blog1Img} className = 'blog1Img'/>
+                                    <a href="https://blog.likelion-yonsei.com/posts/uhaeunn/14기-과제-html-css-vercel-figma-dev-mode"
+                                        className='blog1-url'>- html/CSS blog</a>
+                                </div>
+
+                                <div className='blog2'>
+                                    <img src = {blog2Img} className = 'blog2Img'/>
+                                    <a href="https://blog.likelion-yonsei.com/posts/uhaeunn/14-javascript"
+                                        className='blog2-rul'>- JavaScript blog</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className='title-container'>PolyBridge Project</div>
                     <div className='inner-container'>
